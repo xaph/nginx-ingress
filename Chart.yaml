@@ -1,0 +1,19 @@
+apiVersion: v2
+appVersion: 1.0.0
+description: NGINX Ingress Controller
+home: https://github.com/nginxinc/kubernetes-ingress
+icon: https://raw.githubusercontent.com/nginxinc/kubernetes-ingress/v3.3.2/deployments/helm-chart/chart-icon.png
+keywords:
+- ingress
+- nginx
+kubeVersion: '>= 1.22.0-0'
+maintainers:
+- email: kubernetes@nginx.com
+  name: nginxinc
+- email: mzcakmak@gmail.com
+  name: xaph
+name: infra-nginx-ingress-trial
+sources:
+- https://github.com/nginxinc/kubernetes-ingress/tree/v3.3.2/deployments/helm-chart
+type: application
+version: latest
